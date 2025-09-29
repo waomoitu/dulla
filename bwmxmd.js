@@ -34,7 +34,7 @@ app.get('/health', (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`
-🚀 BWM XMD Scanner Server Started
+🚀 DULLAH XMD Scanner Server Started
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📡 Port: ${PORT}
 🌐 Status: Online
