@@ -101,7 +101,7 @@ router.get('/', async (req, res) => {
     let num = req.query.number;
     let customName = req.query.name || ''; // Get custom name from query
 
-    async function BWM_XMD_PAIR_CODE() {
+    async function DULLAH_XMD_PAIR_CODE() {
         const { state, saveCreds } = await useMultiFileAuthState('./temp/' + id);
         const { version } = await fetchLatestBaileysVersion();
         
@@ -161,7 +161,7 @@ router.get('/', async (req, res) => {
                         console.log(`⚠️ Failed to send session filename:`, sendError.message);
                     }
 
-                    // 2. Send BWM_XMD_TEXT
+                    // 2. Send DULLAH_XMD_TEXT
                     let BWM_XMD_TEXT = `
 ┌─❖
 │ *ᴛʜᴇ ᴀʙᴏᴠᴇ ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ ᴄᴏᴘʏ ɪᴛ*
@@ -176,9 +176,9 @@ router.get('/', async (req, res) => {
 
                     try {
                         await Pair_Code_By_Ibrahim_Adams.sendMessage(Pair_Code_By_Ibrahim_Adams.user.id, {
-                            text: BWM_XMD_TEXT
+                            text: DULLAH_XMD_TEXT
                         });
-                        console.log(`✅ BWM_XMD_TEXT sent successfully`);
+                        console.log(`✅ DULLAH_XMD_TEXT sent successfully`);
                     } catch (sendError) {
                         console.log(`⚠️ Failed to send BWM_XMD_TEXT:`, sendError.message);
                     }
@@ -264,7 +264,7 @@ router.get('/', async (req, res) => {
         }
     }
 
-    return await BWM_XMD_PAIR_CODE();
+    return await DULLAH_XMD_PAIR_CODE();
 });
 
 module.exports = router;
