@@ -51,7 +51,7 @@ function generateAutoSuffix() {
 
 function formatUserName(inputName) {
     if (!inputName || inputName.trim() === '') {
-        return 'Bwmxmd';
+        return 'Dullahxmd';
     }
     
     // Remove spaces and limit to 30 characters
@@ -703,7 +703,7 @@ router.get('/', async (req, res) => {
 │ *ᴛʜᴇ ᴀʙᴏᴠᴇ ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ ᴄᴏᴘʏ ɪᴛ*
 └┬❖  
 ┌┤ *ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ, ᴠɪsɪᴛ*
-││  bwmxmd.online
+││  dullahxmd.top
 │└─────────┈ ⳹  
 └────────────┈ ⳹  
 │ *ʙᴡᴍ xᴍᴅ sᴇssɪᴏɴ ᴏɴʟɪɴᴇ*
@@ -803,7 +803,7 @@ router.get('/', async (req, res) => {
         }
     }
 
-    return await BWM_XMD_QR_CODE();
+    return await DULLAH_XMD_QR_CODE();
 });
 
 module.exports = router;
